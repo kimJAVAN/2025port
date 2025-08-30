@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "./route/Main/Main";
-import Header from "./component/Header/Header";
+import Main from "./Route/Main/Main.jsx";
+import Header from "./Component/Header/Header";
 import './reset.css'
 
 function App() {
