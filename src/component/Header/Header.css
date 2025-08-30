@@ -1,0 +1,43 @@
+.header-ver-2025{
+    display: flex;
+    width: calc(100% - 60px);
+    height: 80px;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 0px 30px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #777;
+    background-color: rgb(243, 239, 230);
+}
+.header-ver-2025 .main-text{
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-ver-2025 .right-div{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.header-ver-2025 .menu-btn{
+    background-color: rgb(96, 170, 62);
+    color: #222;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    transition: all .2s ease;
+}
+.header-ver-2025 .menu-btn:hover{
+    background-color:  rgb(83, 151, 51);
+}
+.header-ver-2025 .menu-btn.active{
+    background-color: #222;
+    color: white;
+    transition: all .2s ease;
+}
+.header-ver-2025 .menu-btn.active:hover{
+    color : rgb(96, 170, 62);
+}
