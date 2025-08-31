@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/2025port" element={<Main />} />
       </Routes>
     </Router>
   );

@@ -1,10 +1,10 @@
 import React from "react";
-import Intro from "./../../Component/Main/Intro/Intro";
+import Intro from "../../Component/Main/Intro/Intro.jsx";
 
 function Main() {
   return (
     <>
-      <Intro/> 
+      <Intro />
     </>
   );
 }
