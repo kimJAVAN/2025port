@@ -117,10 +117,27 @@ function Intro() {
                     <div className='ver-ti-line'></div>
                 </div>
                 <div className='main-four-div'>
-                    <div className='main-four-section left-top-div'></div>
-                    <div className='main-four-section right-top-div'></div>
-                    <div className='main-four-section left-bottom-div'></div>
-                    <div className='main-four-section right-bottom-div'></div>
+                    <div className='main-four-section left-top-div'>
+                        <div className='over-flow-div'>
+                            <p className='int-large-text'>김근영</p>
+                        </div>
+                    </div>
+                    <div className='main-four-section right-top-div'>
+                        <div className='over-flow-div'>
+                            <p className='int-large-text'>FRONTEND</p>
+                        </div>                        
+                    </div>
+                    <div className='main-four-section left-bottom-div'>
+                        <div className='over-flow-div'>
+                            <p className='int-large-text'>PORTFOLIO</p>
+                        </div>                          
+                    </div>
+                    <div className='main-four-section right-bottom-div'>
+                        <div className='sprinkle-text-wrapper'>
+                            <p className='sparkle-text'></p>
+                            <p className='context-text-wrap'></p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
