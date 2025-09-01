@@ -134,9 +134,56 @@ function Intro() {
                     </div>
                     <div className='main-four-section right-bottom-div'>
                         <div className='sprinkle-text-wrapper'>
-                            <p className='sparkle-text'></p>
+                            <p className="sparkle-text">
+                            {"어제보다 더 나은 내일을 꿈꾸며,\n다양한 배움과 경험을 코드로 이어가는\n프론트엔드 개발자 김근영입니다."
+                                .split("\n")
+                                .map((line, lineIndex) => (
+                                <React.Fragment key={lineIndex}>
+                                    {line.split("").map((char, i) => (
+                                    <span
+                                        key={`${lineIndex}-${i}`}
+                                        style={{
+                                        animationDelay: `${2.4 + Math.random() * 1.5}s` 
+                                        }}
+                                    >
+                                        {char === " " ? "\u00A0" : char}
+                                    </span>
+                                    ))}
+                                    <br />
+                                </React.Fragment>
+                                ))}
+                            </p>
+
                             <p className='context-text-wrap'></p>
+                            <div className="goto-btn-wrap">
+                                <div
+                                    className="goto-btn goto-git-hub"
+                                    onClick={() => window.open("https://github.com/kimJAVAN", "_blank")}
+                                    style={{ cursor: "pointer" }}
+                                >
+                                    <img
+                                    src={`${process.env.PUBLIC_URL}/images/github.png`}
+                                    alt="GitHub"
+                                    />
+                                    GitHub
+                                </div>
+
+                                <div
+                                    className="goto-btn goto-my-blog"
+                                    onClick={() => window.open("https://fron-end-note.tistory.com/", "_blank")}
+                                    style={{ cursor: "pointer" }}
+                                >
+                                    <img
+                                    src={`${process.env.PUBLIC_URL}/images/tstory.png`}
+                                    alt="Blog"
+                                    />
+                                    Blog
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div className='cross-img'>
+                        <img src='https://cdn.prod.website-files.com/6824431ce2fd7f3c75768a2e/682450c0e9b1dc3ae4b26307_cross.svg'></img>
                     </div>
                 </div>
             </div>

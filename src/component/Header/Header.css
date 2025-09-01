@@ -11,7 +11,7 @@
     border-bottom: 1px solid #777;
     background-color: rgb(243, 239, 230);
 
-    animation : moveDown .6s ease-in-out .6s forwards;
+    animation : moveDown .6s ease-in-out 2.4s forwards;
 }
 @keyframes moveDown {
     0% {
