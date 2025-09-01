@@ -4,6 +4,7 @@
     position: relative;
     /* background-color: transparent; */
     overflow: hidden;
+    background-color: rgb(243, 239, 230);
 }
 .main-intro-wrap .main-line-div{
     position: relative;

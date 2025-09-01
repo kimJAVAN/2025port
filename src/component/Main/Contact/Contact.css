@@ -1,0 +1,106 @@
+.cont-main-div{
+      position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+      overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-main-div .cont-inner-wrapper{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px); 
+    -webkit-backdrop-filter: blur(2px); 
+
+    display: flex;
+    position: relative;
+    z-index: 1; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cont-main-div .cont-form-div{
+    width: 30%;
+    padding: 0px 0px 0px 200px;
+}
+.cont-main-div .input-tag-des{
+    background-color: transparent;
+    border: none; 
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+.cont-main-div .text-area-des{
+    width: 100%;     
+    height: 150px;  
+    resize: none;     
+    overflow: auto;
+    padding: 10px;
+    font-size: 16px;
+    border: none; 
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    resize: none; 
+    /* padding: 0px 0px; */
+}
+.cont-main-div .submit-btn{
+    background-color: white;
+    color: #222;
+    width: 100%;
+    height: 40px;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+.cont-main-div .submit-btn:hover{
+    background-color: #bbb;
+}
+
+.cont-main-div .cont-right-img-div{
+    width: 30%;
+    padding: 0px 200px 0px 0px;
+}
+/* 입력한 텍스트 색상 */
+.cont-main-div .input-tag-des,
+.cont-main-div .text-area-des {
+  color: white; /* 입력 글자 색상 */
+   font-size: 14px;
+}
+
+/* placeholder 색상 */
+.cont-main-div .input-tag-des::placeholder,
+.cont-main-div .text-area-des::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* placeholder 색상 */
+    font-family: 'GMarketSans';
+    font-size: 14px;
+}
+
+.cont-main-div .status-message{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+
+/* 뒷배경 */
+.cont-main-div .back-particle-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
