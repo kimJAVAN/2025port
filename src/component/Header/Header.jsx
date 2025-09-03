@@ -10,7 +10,7 @@ function Header() {
         </div>
         <div className='right-div'>
             <NavLink 
-              to="/2025port" 
+              to="/" 
               className={({ isActive }) => isActive ? 'menu-btn active' : 'menu-btn'}
             >
                 <div className='menu-text'>MAIN</div>
