@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ParticleScene from '../Particle/Particle';
+import WavyRing from '../../Main/WavyRing/WavyRing';
 import './Contact.css';
 
 function Contact() {
@@ -53,29 +54,41 @@ function Contact() {
                 className="input-tag-des"
                 type="text"
                 name="user_name"
-                placeholder="성함"
+                placeholder="NAME"
                 required
                 />
                 <input
                 className="input-tag-des"
                 type="email"
                 name="user_email"
-                placeholder="연락처 / 이메일"
+                placeholder="PHONE NUMBER / EMAIL"
                 required
                 />
                 <textarea
                 className="input-tag-des text-area-des"
                 style={{ resize: "none" }}
                 name="message"
-                placeholder="메시지 내용"
+                placeholder="MESSAGE"
                 required
                 />
-                <button className='submit-btn' type="submit">보내기</button>
+                <button className='submit-btn' type="submit">SUBMIT</button>
             </form>
             {statusMessage && <p className="status-message">{statusMessage}</p>}
             </div>
             <div className='cont-right-img-div'>
-            <h2>Contact Me</h2>
+              <h2 className='cont-larger-text'>Contact <br/>Me</h2>
+              <div className='wavy-ring-div'>
+                <WavyRing
+                  size={400}
+                  radius={90}
+                  points={128}
+                  wobble={30}
+                  speed={1.2}
+                  stroke="#fff"
+                  strokeWidth={1.2}
+                />
+              </div>
+              <div className='hori-line-div'></div>
             </div>
         </div>
         <div className='back-particle-div'>
