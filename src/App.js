@@ -3,6 +3,7 @@ import Main from "./Route/Main/Main.jsx";
 import Header from "./Component/Header/Header";
 import SubPortfolio from "./Route/Portfolio/PortFolioRoute.jsx";
 import './reset.css';
+import SubContact from "./Route/Contact/SubContact.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/portfolio" element={<SubPortfolio />} />
+        <Route path="/contact" element={<SubContact/>} />
       </Routes>
     </Router>
   );

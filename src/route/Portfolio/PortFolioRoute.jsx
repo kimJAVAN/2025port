@@ -1,5 +1,5 @@
 import React from 'react'
-import SubPortfolio from '../../Component/Main/Portfolio/Portfolio.jsx'
+import SubPortfolio from '../../Component/Portfolio/SubPortfolio/SubPortfolio'
 
 function PortFolioRoute() {
   return (
