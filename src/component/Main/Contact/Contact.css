@@ -83,9 +83,9 @@
 .cont-main-div .hori-line-div{
     position: absolute;
     width: 40%;
-    height: 1px;
+    height: 3px;
     background-color: white;
-    z-index: 3;
+    z-index: 5;
     top: 78%;
     left: 30%;
     transform: translate(-50%, -50%);

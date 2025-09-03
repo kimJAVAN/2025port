@@ -69,15 +69,15 @@ function SubPortfolio() {
             <div
               className={`sub-popol-unit ${isActive ? 'active' : ''}`}
               key={index}
-              onClick={() => handleClick(index)}
-              style={{
-                width: isActive ? '40%' : '20%', 
-                transition: 'width 0.4s ease',
-              }}
+              // onClick={() => handleClick(index)}
+              // style={{
+              //   width: isActive ? '40%' : '20%', 
+              //   transition: 'width 0.4s ease',
+              // }}
             >
               <div 
                 className='sub-popol-front'
-                style={{ width: isActive ? '50%' : '100%' }}
+                // style={{ width: isActive ? '50%' : '100%' }}
               >
                 <div className='sub-popol-title'>
                   <p>{item.title}</p>
@@ -91,11 +91,11 @@ function SubPortfolio() {
               </div>
               <div
                 className='sub-popol-back'
-                style={{
-                  left: isActive ? '50%' : '0%',
-                  transition: 'left 0.4s ease',
-                  position: 'absolute',
-                }}
+                // style={{
+                //   left: isActive ? '50%' : '0%',
+                //   transition: 'left 0.4s ease',
+                //   position: 'absolute',
+                // }}
               >
                 <div className='sub-context'>
                   <p>{item.content}</p>
