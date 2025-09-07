@@ -1,0 +1,65 @@
+
+.force-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    background: #222;
+    color: white;
+}
+.force-main-div .mini-text{
+    color: rgb(96, 170, 62);
+    margin-bottom: 10px;
+}
+.force-main-div .large-text{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.force-main-div .force-unit-wrap{
+    display: flex;
+    gap: 10px;
+    width: calc(50px * 5 + 10px * 4);
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.force-main-div .force-unit{
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+.force-main-div .force-unit img{
+    width: 80%;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}
+
+.force-main-div .force-unit .tooltip {
+    visibility:  hidden; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute; 
+    bottom: 110%; 
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; 
+    font-size: 14px;
+    z-index: 10; 
+    opacity: 0; 
+    transition: opacity 0.2s ease-in-out;
+}
+.force-main-div .force-unit:hover .tooltip {
+    visibility: visible;
+    opacity: 1; 
+}
