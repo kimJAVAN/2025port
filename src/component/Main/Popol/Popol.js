@@ -162,7 +162,7 @@ function Popol() {
   
     //리액트 게임 모음
     {
-      index: 'react-game-collection',
+      index: 'presonal',
       title: "React 게임 모음",
       description: "틱택토, 클릭 속도 테스트, 카드 매칭, 숫자 맞추기, 야구게임 등 5가지 게임을 한 곳에서 즐길 수 있는 React 기반 웹게임 프로젝트",
       techStack: ["React", "JavaScript", "CSS"],
