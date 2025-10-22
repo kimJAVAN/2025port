@@ -11,8 +11,6 @@ function Popol() {
   //   AOS.init();
   // },[])
 
-
-
   // 각 포트폴리오 항목의 상태와 더보기/닫기 기능을 관리하기 위한 상태
   const [viewVisible, setViewVisible] = useState(null);
 
@@ -60,9 +58,6 @@ function Popol() {
       }
     ]
   },
-
-
-
     // 삼국지 MBTI 테스트 사이트
 {
   index : 'personal',
@@ -108,9 +103,6 @@ function Popol() {
   ]
 }
 ,
-
-
-
     // 이미지 제작 사이트
     // 이미지 제작 사이트
     {
@@ -694,7 +686,9 @@ function Popol() {
           ]
         }
       ]
-    }
+    },
+
+
   ];
 
   // 유닛 클릭 시 해당 항목의 상세 정보를 보이게 하는 함수
@@ -733,6 +727,9 @@ function Popol() {
           </div>
           <div className={`popol-btn ${filterType === 'personal' ? 'active' : ''}`} onClick={() => handleFilterClick('personal')}>
             <p>개인</p>
+          </div>
+          <div className={`popol-btn ${filterType === 'LLM' ? 'active' : ''}`} onClick={() => handleFilterClick('LLM')}>
+            <p>LLM</p>
           </div>
         </div>
 
