@@ -11,6 +11,8 @@ function Force() {
   // },[])
 
   const images = [
+    { src: '/image/ts.png', alt: 'TypeScript' },
+    { src: '/image/next.png', alt: 'NEXT.JS' },
     { src: '/image/react.png', alt: 'React' },
     { src: '/image/java.png', alt: 'JavaScript' },
     { src: '/image/node.png', alt: 'Node.js' },
@@ -20,6 +22,7 @@ function Force() {
     { src: '/image/figma.png', alt: 'Figma' },
     { src: '/image/sass.png', alt: 'Sass' },
     { src: '/image/mui.jpg', alt: 'MUI' },
+    { src: '/image/cha.png', alt: 'chakra' },
     { src: '/image/swiper-logo.svg', alt: 'Swiper' },
   ];
 
